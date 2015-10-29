@@ -1,15 +1,7 @@
 {
-	/* 
-	 * Buttons
-	 */
 
 	"btprevious" : "Previous",
 	"btnext" : "Next",
-
-	/* 
-	 * P (Page) -> page number 
-	 * L ()Line) -> line number
-	 */
 
 	"PiL1" : "JAX-RS: Java™ API for RESTful",
 	"PiL2" : "Web Services",
