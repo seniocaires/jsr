@@ -1,4 +1,25 @@
 {
+	/* 
+	 * Buttons
+	 */
+
 	"btprevious" : "Previous",
-	"btnext" : "Next"
+	"btnext" : "Next",
+
+	/* 
+	 * P (Page) -> page number 
+	 * L ()Line) -> line number
+	 */
+
+	"PiL1" : "JAX-RS: Java™ API for RESTful",
+	"PiL2" : "Web Services",
+	"PiL3" : "Version 1.0",
+	"PiL4" : "September 8, 2008",
+	"PiL5" : "Editors:",
+	"PiL6" : "Marc Hadley",
+	"PiL7" : "Paul Sandoz",
+	"PiL8" : "Comments to: users@jsr311.dev.java.net",
+	"PiL9" : "Sun Microsystems, Inc.",
+	"PiL10" : "4150 Network Circle, Santa Clara, CA 95054 USA.",
+	"PiL11" : "180, Avenue de L’Europe, 38330 Montbonnot Saint Martin, France"
 }
