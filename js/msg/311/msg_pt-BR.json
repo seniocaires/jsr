@@ -1,4 +1,17 @@
 {
+
 	"btprevious" : "Anterior",
-	"btnext" : "Próximo"
+	"btnext" : "Próximo",
+
+	"PiL1" : "JAX-RS: Java™ API for RESTful",
+	"PiL2" : "Web Services",
+	"PiL3" : "Versão 1.0",
+	"PiL4" : "8 de Setembro de 2008",
+	"PiL5" : "Editores:",
+	"PiL6" : "Marc Hadley",
+	"PiL7" : "Paul Sandoz",
+	"PiL8" : "Comentários para: users@jsr311.dev.java.net",
+	"PiL9" : "Sun Microsystems, Inc.",
+	"PiL10" : "4150 Network Circle, Santa Clara, CA 95054 USA.",
+	"PiL11" : "180, Avenue de L’Europe, 38330 Montbonnot Saint Martin, France"
 }
