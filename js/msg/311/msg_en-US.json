@@ -118,5 +118,17 @@
 	"PviiL65" : "Change Log",
 	"PviiL66" : "Changes Since Proposed Final Draft",
 	"PviiL67" : "Changes Since Public Review Draft",
-	"PviiL68" : "Bibliography "
+	"PviiL68" : "Bibliography",
+
+	"P1L1" : "Chapter 1",
+	"P1L2" : "Introduction",
+	"P1L3" : "This specification defines a set of Java APIs for the development of Web services built according to the Representational State Transfer[1] (REST) architectural style. Readers are assumed to be familiar with REST; for more information about the REST architectural style and RESTful Web services, see:",
+	"P1L4" : "Architectural Styles and the Design of Network-based Software Architectures[1]",
+	"P1L5" : "The REST Wiki[2]",
+	"P1L6" : "Representational State Transfer on Wikipedia[3]",
+	"P1L7" : "1.1 Status",
+	"P1L8" : "This is an editors draft; this specification is not yet complete. A list of open issues can be found at: https://jsr311.dev.java.net/servlets/ProjectIssues",
+	"P1L9" : "The latest Javadocs can be found online at: https://jsr311.dev.java.net/nonav/javadoc/index.html",
+	"P1L10" : "The reference implementation can be obtained from: https://jersey.dev.java.net/",
+	"P1L11" : "The expert group seeks feedback from the community on any aspect of this specification, please send comments to: users@jsr311.dev.java.net"
 }
