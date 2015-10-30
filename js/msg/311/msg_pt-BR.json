@@ -191,5 +191,26 @@
 	"P1L74" : "1.7 Acknowledgements",
 	"P1L75" : "During the course of the JSR we received many excellent suggestions on the JSR and Jersey (RI) mailing lists, thanks in particular to James Manger (Telstra) and Reto Bachmann-Gmur (Trialox) for their contributions.",
 	"P1L76" : "The GenericEntity class was inspired by the Google Guice TypeLiteral class. Our thanks to Bob Lee and Google for donating this class to JAX-RS. ",
-	"P1L77" : "The following individuals (all Sun Microsystems) have also made invaluable technical contributions: Roberto Chinnici, Dianne Jiao (TCK), Ron Monzillo, Rajiv Mordani, Eduardo Pelegri-Llopart, Jakub Podlesak (RI) and Bill Shannon."
+	"P1L77" : "The following individuals (all Sun Microsystems) have also made invaluable technical contributions: Roberto Chinnici, Dianne Jiao (TCK), Ron Monzillo, Rajiv Mordani, Eduardo Pelegri-Llopart, Jakub Podlesak (RI) and Bill Shannon.",
+
+	"P2L1" : "Chapter 2",
+	"P2L2" : "Applications",
+	"P2L3" : "A JAX-RS application consists of one or more resources (see chapter 3) and zero or more providers (see chapter 4). This chapter describes aspects of JAX-RS that apply to an application as a whole, subsequent chapters describe particular aspects of a JAX-RS application and requirements on JAX-RS implementations.",
+	"P2L4" : "2.1 Configuration",
+	"P2L5" : "The resources and providers that make up a JAX-RS application are configured via an application-supplied subclass of Application. An implementation MAY provide alternate mechanisms for locating resource classes and providers (e.g. runtime class scanning) but use of Application is the only portable means of configuration.",
+	"P2L6" : "2.2 Validation",
+	"P2L7" : "Specific validation requirements are detailed throughout this specification and the JAX-RS Javadocs. Implementations MAY perform additional validation where feasible and SHOULD report any issues arising from such validation to the user. ",
+	"P2L8" : "2.3 Publication",
+	"P2L9" : "Applications are published in different ways depending on whether the application is run in a Java SE environment or within a container. This section describes the alternate means of publication.",
+	"P2L10" : "2.3.1 Java SE",
+	"P2L11" : "In a Java SE environment a configured instance of an endpoint class can be obtained using the create-Endpoint method of RuntimeDelegate. The application supplies an instance of Application and the type of endpoint required. An implementation MAY support zero or more endpoint types of any desired type.",
+	"P2L12" : "How the resulting endpoint class instance is used to publish the application is outside the scope of this specification. ",
+	"P2L13" : "2.3.1.1 JAX-WS",
+	"P2L14" : "An implementation that supports publication via JAX-WS MUST support createEndpoint with an end-point type of javax.xml.ws.Provider. JAX-WS describes how a Provider based endpoint can be published in an SE environment.",
+	"P2L15" : "2.3.2 Servlet",
+	"P2L16" : "A JAX-RS application is packaged as a Servlet in a .war file. The Application subclass (see section 2.1), resource classes, and providers are packaged in WEB-INF/classes, required libraries are packaged in WEB-INF/lib. Included libraries MAY also contain resource classes and providers as desired. See the Servlet specification for full details on packaging of web applications. ",
+	"P2L17" : "When using a JAX-RS aware servlet container, the servlet-class element of the web.xml descriptor SHOULD name the application-supplied subclass of Application.",
+	"P2L18" : "When using a non-JAX-RS aware servlet container, the servlet-class element of the web.xml descriptor SHOULD name the JAX-RS implementation-supplied Servlet class. The application-supplied subclass of Application is identified using an init-param with a param-name of javax.ws.rs.Application.",
+	"P2L19" : "2.3.3 Other Container",
+	"P2L20" : "An implementation MAY provide facilities to host a JAX-RS application in other types of container, such facilities are outside the scope of this specification. "
 }
