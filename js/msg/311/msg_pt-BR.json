@@ -130,5 +130,19 @@
 	"P1L8" : "This is an editors draft; this specification is not yet complete. A list of open issues can be found at: https://jsr311.dev.java.net/servlets/ProjectIssues",
 	"P1L9" : "The latest Javadocs can be found online at: https://jsr311.dev.java.net/nonav/javadoc/index.html",
 	"P1L10" : "The reference implementation can be obtained from: https://jersey.dev.java.net/",
-	"P1L11" : "The expert group seeks feedback from the community on any aspect of this specification, please send comments to: users@jsr311.dev.java.net"
+	"P1L11" : "The expert group seeks feedback from the community on any aspect of this specification, please send comments to: users@jsr311.dev.java.net",
+	"P1L18" : "1.2 Goals",
+	"P1L19" : "The following are the goals of the API:",
+	"P1L20" : "POJO-based The API will provide a set of annotations and associated classes/interfaces that may be used with POJOs in order to expose them as Web resources. The specification will define object lifecycle and scope.",
+	"P1L21" : "HTTP-centric The specification will assume HTTP[4] is the underlying network protocol and will provide a clear mapping between HTTP and URI[5] elements and the corresponding API classes and annotations. The API will provide high level support for common HTTP usage patterns and will be sufficiently flexible to support a variety of HTTP applications including WebDAV[6] and the Atom Publishing Protocol[7].",
+	"P1L22" : "Format independence The API will be applicable to a wide variety of HTTP entity body content types. It will provide the necessary pluggability to allow additional types to be added by an application in a standard manner",
+	"P1L23" : "Container independence Artifacts using the API will be deployable in a variety of Web-tier containers. The specification will define how artifacts are deployed in a Servlet[8] container and as a JAX-WS[9] Provider.",
+	"P1L24" : "Inclusion in Java EE The specification will define the environment for a Web resource class hosted in a Java EE container and will specify how to use Java EE features and components within a Web resource class.",
+	"P1L25" : "1.3 Non-Goals",
+	"P1L26" : "The following are non-goals:",
+	"P1L27" : "Support for Java versions prior to J2SE 5.0 The API will make extensive use of annotations and will require J2SE 5.0 or later.",
+	"P1L28" : "Description, registration and discovery The specification will neither define nor require any service description, registration or discovery capability.",
+	"P1L29" : "Client APIs The specification will not define client-side APIs. Other specifications are expected to provide such functionality.",
+	"P1L30" : "HTTP Stack The specification will not define a new HTTP stack. HTTP protocol support is provided by a container that hosts artifacts developed using the API.",
+	"P1L31" : "Data model/format classes The API will not define classes that support manipulation of entity body content, rather it will provide pluggability to allow such classes to be used by artifacts developed using the API."
 }
