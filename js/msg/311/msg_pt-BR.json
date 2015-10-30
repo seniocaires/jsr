@@ -212,5 +212,18 @@
 	"P2L17" : "When using a JAX-RS aware servlet container, the servlet-class element of the web.xml descriptor SHOULD name the application-supplied subclass of Application.",
 	"P2L18" : "When using a non-JAX-RS aware servlet container, the servlet-class element of the web.xml descriptor SHOULD name the JAX-RS implementation-supplied Servlet class. The application-supplied subclass of Application is identified using an init-param with a param-name of javax.ws.rs.Application.",
 	"P2L19" : "2.3.3 Other Container",
-	"P2L20" : "An implementation MAY provide facilities to host a JAX-RS application in other types of container, such facilities are outside the scope of this specification. "
+	"P2L20" : "An implementation MAY provide facilities to host a JAX-RS application in other types of container, such facilities are outside the scope of this specification. ",
+
+	"PbL1" : "Bibliography",
+	"PbL2" : "[1] R. Fielding. Architectural Styles and the Design of Network-based Software Architectures. Ph.d dissertation, University of California, Irvine, 2000. See http://roy.gbiv.com/pubs/dissertation/top.htm.",
+	"PbL3" : "[2] REST Wiki. Web site. See http://rest.blueoxen.net/cgi-bin/wiki.pl.",
+	"PbL4" : "[3] Representational State Transfer. Web site, Wikipedia. See http://en.wikipedia.org/wiki/Representational State Transfer",
+	"PbL5" : "[4] R. Fielding, J. Gettys, J. C. Mogul, H. Frystyk, and T. Berners-Lee. RFC 2616: Hypertext Transfer Protocol – HTTP/1.1. RFC, IETF, January 1997. See http://www.ietf.org/rfc/rfc2616.txt.",
+	"PbL6" : "[5] T. Berners-Lee, R. Fielding, and L. Masinter. RFC 3986: Uniform Resource Identifier (URI): Generic Syntax. RFC, IETF, January 2005. See http://www.ietf.org/rfc/rfc3986.txt. ",
+	"PbL7" : "[6] L. Dusseault. RFC 4918: HTTP Extensions for Web Distributed Authoring and Versioning (WebDAV). RFC, IETF, June 2007. See http://www.ietf.org/rfc/rfc4918.txt. ",
+	"PbL8" : "[7] J.C. Gregorio and B. de hOra. The Atom Publishing Protocol. Internet Draft, IETF, March 2007. See http://bitworking.org/projects/atom/draft-ietf-atompub-protocol-14.html. ",
+	"PbL9" : "[8] G. Murray. Java Servlet Specification Version 2.5. JSR, JCP, October 2006. See http://java.sun.com/products/servlet.",
+	"PbL10" : "[9] R. Chinnici, M. Hadley, and R. Mordani. Java API for XML Web Services. JSR, JCP, August 2005. See http://jcp.org/en/jsr/detail?id=224. ",
+	"PbL11" : "[10] S. Bradner. RFC 2119: Keywords for use in RFCs to Indicate Requirement Levels. RFC, IETF, March 1997. See http://www.ietf.org/rfc/rfc2119.txt. ",
+	"PbL12" : "[11] Bill Shannon. JavaBeans Activation Framework. JSR, JCP, May 2006. See http://jcp.org/en/jsr/detail?id=925. "
 }
