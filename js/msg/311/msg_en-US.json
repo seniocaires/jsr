@@ -212,7 +212,7 @@
 	"P2L17" : "When using a JAX-RS aware servlet container, the servlet-class element of the web.xml descriptor SHOULD name the application-supplied subclass of Application.",
 	"P2L18" : "When using a non-JAX-RS aware servlet container, the servlet-class element of the web.xml descriptor SHOULD name the JAX-RS implementation-supplied Servlet class. The application-supplied subclass of Application is identified using an init-param with a param-name of javax.ws.rs.Application.",
 	"P2L19" : "2.3.3 Other Container",
-	"P2L20" : "An implementation MAY provide facilities to host a JAX-RS application in other types of container, such facilities are outside the scope of this specification. "
+	"P2L20" : "An implementation MAY provide facilities to host a JAX-RS application in other types of container, such facilities are outside the scope of this specification. ",
 
 	"P3L1" : "Chapter 3",
 	"P3L2" : "Resources",
