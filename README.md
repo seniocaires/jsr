@@ -6,5 +6,5 @@ Os commits são publicados automaticamente na página <br/>
 http://seniocaires.github.io/jsr <br/>
 <br/>
 Arquivos com os textos da JSR 311 em Português e Inglês. <br/>
-jsr/js/msg/311/msg_pt-BR.json <br/>
-jsr/js/msg/311/msg_en-US.json <br/>
+js/msg/311/msg_pt-BR.json <br/>
+js/msg/311/msg_en-US.json <br/>
